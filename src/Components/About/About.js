@@ -17,7 +17,7 @@ export default class About extends React.Component {
                         <p>{this.props.about}</p>
                     </div>
                     <div className="download">
-                        <a className="button" href="./content/Sanders_Li_Resume_CS.pdf" download><i className="fas fa-download"></i>Download Resume</a>
+                        <a className="button" href="https://www.dropbox.com/s/cma8tuabmrgri5w/Sanders_Li_Resume_CS.pdf?dl=0" download><i className="fas fa-download"></i>Download Resume</a>
                     </div>
                 </div>
             </section>
