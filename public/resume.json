@@ -1,0 +1,129 @@
+{
+    "name": "Sanders Li",
+    "contact": {
+        "email": "sandersl@usc.edu",
+        "socials": [
+            {
+                "name": "LinkedIn",
+                "url": "https://www.linkedin.com/in/sanders-li/"
+            },
+            {
+                "name": "Github",
+                "url": "https://github.com/sanders-li"
+            }
+        ]
+    },
+    "bio": "I am a self-taught developer, primarily working with Python, Node.js, and React. I graduated from USC with a BS in aerospace engineering and worked at Precision Castparts as a Dimensional Engineer, where I conducted statistical analysis and systems testing to improve manufacturing processes. I am passionate about reinforcement-based machine learning, statistical process control, interactive web-app development, and mechanical keyboards. I am interested in pursuing data analyst or software development roles.",
+    "experience": [
+        {
+            "name": "Precision Castparts Corp",
+            "role": "Dimensional Engineer",
+            "start_date": "July 2019",
+            "end_date": "April 2020",
+            "summary": "Responsible for ensuring dimensional compliance of titanium casting products in multi-million-dollar product lines.",
+            "achievements": [
+                "Orchestrated cost-reduction projects involving cross-functional teams of engineers and operations supervisors, reducing product lead time by 6%.",
+                "Oversaw experimental solutions to improve manufacturing processes, reducing dimensional inspection time by 85%.",
+                "Liaised between external customers and internal departments, interpreting customer specifications and quality standards to create technical instructions for operators.",
+                "Leveraged insights from data to effectively tackle key manufacturing problems and prove manufacturing capability, reducing surface defects on GE fan frame castings by an estimated 62%."
+            ]
+        },
+        {
+            "name": "Commedia Inc",
+            "role": "Python Development Intern",
+            "start_date": "June 2018",
+            "end_date": "August 2018",
+            "summary": "Developed and implemented a domain evaluation system in Python for automatic content categorization",
+            "achievements": [
+                "Integrated system with RocksDB database to ensure high-performance as system scales.",
+                "Implemented multithreading and Docker to provide a cross-platform, scalable solution.",
+                "Iteratively improved software features through design docs, git, code reviews, and rapid prototyping."
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "category": "Full-Stack",
+            "skills_list": ["Python", "Javascript", "React", "Node.js", "HTML", "CSS"]
+        }, 
+        {
+            "category": "Data Science",
+            "skills_list": ["Python", "Keras", "Tensorflow", "JMP (SAS)", "Excel VBA"]
+        }, 
+        {
+            "category": "Engineering",
+            "skills_list": ["Siemens NX", "Solidworks", "MATLAB", "LabVIEW"]
+        }  
+    ],
+    "projects": [
+        {
+            "name": "Personal website",
+            "description": "This is what you're on right now!",
+            "techstack": ["React", "HTML", "CSS"],
+            "link": "", 
+            "image": "./images/sl.png"
+        },
+        {
+            "name": "San Francisco Neighborhood Business Analysis",
+            "description": "IBM Data Science Capstone Project",
+            "techstack": ["Python", "Scikit-learn", "Jupyter Notebooks"],
+            "link": "https://github.com/sanders-li/IBM-Data-Science-Certification-Capstone/blob/master/San%20Francisco%20Bubble%20Tea%20Data%20Science%20Analysis/REPORT.md",
+            "image": "./images/ds_capstone.png"
+        },
+        {
+            "name": "Deep Learning Model Exploration",
+            "description": "IBM AI Engineering Capstone Project",
+            "techstack": ["Python", "Keras", "Tensorflow", "Jupyter Notebooks"],
+            "link": "https://github.com/sanders-li/IBM-AI-Engineering-Capstone",
+            "image": "./images/ai_capstone.png"
+        },
+        {
+            "name": "Camino",
+            "description": "Route Optimization",
+            "techstack": ["Python", "Jupyter Notebooks", "React", "Flask", "HTML", "CSS"],
+            "link": "https://github.com/sanders-li/Camino",
+            "image": "./images/camino.png"
+        },
+        {
+            "name": "Full-Stack Web Table",
+            "description": "Basic React/Express.js Handsontable implementation",
+            "techstack": ["React", "Express.js", "Handsontable"],
+            "link": "",
+            "image": "./images/table.png"
+        }, 
+        {
+            "name": "Jamming",
+            "description": "Dynamically updated React-based webpage for creating Spotify playlists",
+            "techstack": ["React", "HTML", "CSS"],
+            "link": "https://github.com/sanders-li/jamming",
+            "image": "./images/jamming.png"
+        },
+        {
+            "name": "Image Correlation",
+            "description": "Digital image correlation algorithm written in MATLAB",
+            "techstack": ["MATLAB"],
+            "link": "https://github.com/sanders-li/image_correl/blob/master/Digital%20Image%20Correlation.pdf",
+            "image": "./images/image_correl.png"
+        }
+    ],
+    "education": [
+        {
+            "name": "University of Southern California",
+            "school": "Viterbi School of Engineering",
+            "degree": "BS",
+            "major": "Aerospace Mechanical Engineering",
+            "start_date": "August 2015",
+            "end_date": "May 2019"
+        }
+    ],
+    "courses": [
+        {
+            "name": "IBM Data Science Professional Certificate",
+            "link": "https://coursera.org/share/db722bb7bdbac3fdc3085f1ffaacd861"
+        },
+        {
+            "name": "IBM AI Engineering Professional Certificate",
+            "link": "https://coursera.org/share/4ee7235f8005cca047a96a1825da5d39"
+        }
+    ]
+}

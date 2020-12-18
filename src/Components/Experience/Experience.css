@@ -1,0 +1,39 @@
+
+#experience {
+    background: #fcfaf6;
+}
+
+#experience .container.outer {
+    padding: 10px 10px;
+    grid-template-columns: 1fr 5fr;
+}
+
+#experience .container.inner {
+    grid-template-columns: 1fr;
+}
+
+#experience p, ul {
+    color: dimgray;
+}
+
+#experience .info{
+    font: 'Lato';
+    font-style: italic;
+    font-weight: 600;
+    padding: 8px 0px;
+}
+
+#experience .date {
+    font: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+}
+
+#experience .info span {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#experience .container.category {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}

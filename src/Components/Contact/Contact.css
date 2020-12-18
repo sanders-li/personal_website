@@ -1,0 +1,31 @@
+#contact {
+    background-color:#fcfaf6;
+}
+
+#contact .contact-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    text-align: center;
+}
+
+#contact .contact-list i {
+    font-size: 36px;
+    vertical-align: middle;
+}
+#contact .contact-list span {
+    margin: 5px;
+}
+
+#contact .contact-list a {
+    font-size: 16px;
+    font-weight: 700;
+    white-space: nowrap;
+    color: #313131;
+    padding: 4px;
+    line-height: 32px;
+}
+
+#contact .contact-list a:hover {
+    color: gray;
+}
