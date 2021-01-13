@@ -24,7 +24,6 @@ export default class App extends React.Component {
         'Accept': 'application/json'
         }
       }).then(res => {
-        console.log(res.data)
         this.setState(res.data)
       }).catch(err => {
         console.log(err)

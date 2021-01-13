@@ -7,9 +7,36 @@
 
 #projects .card-list {
     margin-left: 10%;
+    margin-right: 10%;
     display: flex;
-    padding: 3rem;
+    padding: 2rem;
     overflow-x: scroll;
+}
+
+.card-list:before {
+    content: "";
+    position: absolute;
+    left: 10%;
+    margin-top: -1rem;
+    height: 27rem; /* card height + padding */
+    width: 2rem;
+    z-index: 1;
+    background-image: linear-gradient(to right, rgba(43,43,43,1), rgba(43,43,43,0));
+}
+
+.card-list:after {
+    content: "";
+    position: absolute;
+    right: 10%;
+    margin-top: -1rem;
+    height: 27rem; /* card height + padding */
+    width: 2rem;
+    z-index: 1;
+    background-image: linear-gradient(to left, rgba(43,43,43,1), rgba(43,43,43,0));
+}
+
+.barrier {
+    min-width: 1.5rem;
 }
 
 .card-list::-webkit-scrollbar {
@@ -31,13 +58,13 @@
     display: grid;
     grid-template-rows: minmax(100px, 2fr) 5fr minmax(100px, 1fr);
     position: relative;
-    height: 350px;
-    width: 400px;
-    min-width: 250px;
-    padding: 0.5rem 1.5rem;
+    height: 23rem;
+    width: 20rem;
+    min-width: 14rem;
+    padding: 1rem 2rem;
     border-radius: 16px;
     background: #17141c;
-    box-shadow: -1rem 0 2rem black;
+    box-shadow: -0.5rem 0 1rem black;
     overflow: hidden;
 
     transition: .2s;
@@ -99,14 +126,11 @@
 };
 
 #projects .card {
-    /* literally just placeholder cause not placing this here makes the code below not work??? */
+    margin: 1rem 0 2rem;
+    padding: .5rem 0 .5rem;
 }
 
 #projects .card-labels {
-    margin: 1rem 0 2rem;
-    padding: .5rem 0 .5rem;
-    margin-bottom: 0;
-    
     align-self: end;
 }
 

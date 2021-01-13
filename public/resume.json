@@ -13,7 +13,7 @@
             }
         ]
     },
-    "bio": "I am a self-taught developer, primarily working with Python, Node.js, and React. I graduated from USC with a BS in aerospace engineering and worked at Precision Castparts as a Dimensional Engineer, where I conducted statistical analysis and systems testing to improve manufacturing processes. I am passionate about reinforcement-based machine learning, statistical process control, interactive web-app development, and mechanical keyboards. I am interested in pursuing data analyst or software development roles.",
+    "bio": "I am a self-taught developer, primarily working with Python, Node.js, and React. I graduated from USC with a BS in aerospace engineering and worked at Precision Castparts as a Dimensional Engineer, where I conducted statistical analysis and systems testing to improve manufacturing processes. I am passionate about reinforcement-based machine learning, statistical process control, interactive web app development, and baking. I am interested in pursuing data analyst or software development roles.",
     "experience": [
         {
             "name": "Precision Castparts Corp",
@@ -57,6 +57,13 @@
     ],
     "projects": [
         {
+            "name": "Hospital Occupancy Visualizer",
+            "description": "Interactive Map of US Hospital Capacity Metrics",
+            "techstack": ["React", "Redux", "deck.gl", "react-vis", "Material-UI", "Python", "Jupyter Notebooks"],
+            "link": "https://hovis.surge.sh/", 
+            "image": "./images/hovis.png"
+        },
+        {
             "name": "Personal website",
             "description": "This is what you're on right now!",
             "techstack": ["React", "HTML", "CSS"],
@@ -80,7 +87,7 @@
         {
             "name": "Camino",
             "description": "Route Optimization",
-            "techstack": ["Python", "Jupyter Notebooks", "React", "Flask", "HTML", "CSS"],
+            "techstack": ["Python", "Jupyter Notebooks", "React", "Flask"],
             "link": "https://github.com/sanders-li/Camino",
             "image": "./images/camino.png"
         },
